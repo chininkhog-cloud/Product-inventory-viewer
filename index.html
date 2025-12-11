@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>PRODUCT INVENTORY VIEWER</title>
+
+        <!-- External CSS -->
+         <link rel="stylesheet" href="style.css" />
+
+         <!-- Optinal: add a favicon or other assests in /assests-->
+    </head>
+    <body>
+        <header>
+            <div class="container header-inner">
+                <h1>Product Inventory Viewer</h1>
+                <p class="subtitle">Add products, view inventory and filter by category.</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- Form Section-->
+             <section id="form-section" aria-labelledby="form-heading">
+                <h2 id="form-heading">Add New Product</h2>
+                <form id="product-form" novalidate>
+                    <div class="form-row">
+                        <label for="product-name">Product Name</label>
+                        <input type="text" id="product-name" name="name" required placeholder="e.g. Coca-Cola 500ml" />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="product-category">Category</label>
+                        <select id="product-category" name="category" required>
+                            <option value="">-- Select Category --</option>
+                            <option value="Drinks">Drrinks</option>
+                            <option value="Bakery">Bakery</option>
+                            <option value="Grocery">Grocery</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Others">Others</option>               
+                        </select>
+                    </div>
+
+                    
+                </form>
+             </section>
+    </body>
+</html>

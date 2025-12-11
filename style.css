@@ -1,0 +1,21 @@
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    border: solid 1px;
+    padding: auto;
+    margin: 10px
+    ;
+}
+
+
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+    background-image: url(football.jpg);
+}
+
+.nav_links{
+    color: rgb(255, 255, 255);
+    
+}
